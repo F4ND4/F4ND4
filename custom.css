@@ -1,0 +1,195 @@
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/storeCSS.css);
+
+.panels-3wFtMD:not(:hover) > :not(:last-child), .panels-3wFtMD:not(:hover) > .wrapper-3Hk90B ~ div {
+    padding: 0;
+    overflow: hidden;
+    height: 0;
+    min-height: 0
+}
+
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
+
+.ShowSessions-modal-item{padding:20px 20px 0!important;background:var(--background-secondary)}
+.ShowSessions-modal-headerContainer>b{order:1;padding-bottom:10px;font-weight:600;color:var(--header-primary);font-family:var(--font-display)}
+.ShowSessions-modal-avatarWrapper .wrapper-1VLyxH{width:40px!important;height:40px!important}
+.ShowSessions-modal-badgesContainer{padding:0 0 10px 8px !important;order:1}
+.ShowSessions-modal-headerContainer{margin-bottom:20px!important}
+.ShowSessions-modal-headerContainer .ShowSessions-modal-avatarWrapper{margin:0 10px 0 0 !important;order:0!important}
+.ShowSessions-modal-message{position:absolute;padding:20px 50px;font-size:14px;line-height:1.4;color:var(--header-secondary)}
+.ShowSessions-modal-body{height:0;overflow:hidden;background-color:var(--background-primary);border-radius:5px;padding:0 20px;transition:.5s ease}
+.ShowSessions-modal-item:hover .ShowSessions-modal-body{height:162px;margin-bottom:20px;transition:.5s ease}
+.ShowSessions-modal-sessionInfo b{text-transform:uppercase;font-size:12px;font-weight:600;color:var(--header-secondary);font-family:var(--font-display)}
+.ShowSessions-modal-sessionInfo span{font-size:14px}
+.ShowSessions-modal-sessionInfo:nth-child(1){position:absolute;right:40px;transform:translate(0,-58px)}
+.ShowSessions-modal-sessionInfo:nth-child(1) b{display:none}
+.ShowSessions-modal-sessionInfo:nth-child(2){margin:20px 0 0}
+
+
+
+.membersWrap-3NUR2t {
+  min-width: unset;
+}
+.membersWrap-3NUR2t .members-3WRCEx {
+  max-width: 65px;
+  min-width: 65px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.membersWrap-3NUR2t .members-3WRCEx:hover {
+  max-width: 240px;
+  min-width: 240px;
+}
+.membersWrap-3NUR2t .members-3WRCEx .content-2a4AW9:not(:hover) {
+  padding-top: 10px;
+}
+
+.membersGroup-2eiWxl {
+  margin-left: 60px;
+}
+
+.members-3WRCEx,
+.members-3WRCEx > div {
+}
+
+
+
+
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css);
+
+/* Messages Slide In Chat */
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.message-2CShn3 {
+  animation: slide-up 0.4s ease;
+}
+
+
+
+/*
+
+ChannelTabs *broken*
+
+.wordmark-2u86JB {
+    display: none;
+}
+
+#channelTabs-container{
+    -webkit-app-region: drag;
+    width: calc(100vw - 100px);
+}
+
+.titleBar-1it3bQ {
+    -webkit-app-region: drag;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 4000;
+    height: calc(var(--channelTabs-tabHeight) + 4px);
+}
+
+.channelTabs-tabNav, .channelTabs-tab, .channelTabs-newTab, #channelTabs-settingsMenu {
+    -webkit-app-region: no-drag;
+}
+
+#channelTabs-settingsMenu {
+    margin-right: 84px;
+    top: 0;
+    height: 22px !important;
+    width: 28px !important;
+}
+
+.channelTabs-settingsIcon {
+    max-height: 10px !important;
+    max-width: 10px !important;
+}
+
+.channelTabs-tabContainer {
+    width: calc(100% - 28px);
+}
+
+.channelTabs-favContainer {
+    -webkit-app-region: no-drag;
+    width: calc(100vw - 16px);
+}
+
+*/
+
+/* Unclamp the About Me section, so it's not limited to just 6 lines. (normally it cuts off at 6 and adds a ...) */
+.lineClamp2Plus-2RYGV2{
+    -webkit-line-clamp: 190; /*Maximum amount of characters as new lines, unset just breaks links*/
+    max-height:112px;
+    overflow-x: hidden;
+    overflow-y:auto;
+}
+.lineClamp2Plus-2RYGV2::-webkit-scrollbar {
+  width: 5px;
+  height: 15px;
+}
+.lineClamp2Plus-2RYGV2::-webkit-scrollbar-track {
+  border-radius: 5px; /*How round you want the scrollbar to be. 0 is square, 10px is round.*/
+  background-color: rgb(255 255 255 / 10%); /*Edit this to what color you want the track to be.*/
+}
+.lineClamp2Plus-2RYGV2::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #00aeff, #00aeff); /* Edit this to whatever color/colors you'd like*/
+  border-radius: 5px; /*How round you want the scrollbar thumb to be. 0 is square, 10px is round.*/
+}
+
+/*Hide user panel buttons*/
+
+.panels-3wFtMD > .container-YkUktl .flex-2S1XBF > :not(:last-child) {
+  opacity: 0% !important;
+  width: 0px;
+  transition: all 0.2s ease-in-out;
+}
+.panels-3wFtMD > .container-YkUktl .flex-2S1XBF {
+  margin-left: auto;
+}
+.panels-3wFtMD > .container-YkUktl .flex-2S1XBF:hover > :not(:last-child) {
+  opacity: 100% !important;
+  width: 32px;
+}
+
+
+/* consistent member since */
+.userInfoSection-3her-v>h3 {
+   color: var(--header-secondary);
+   margin-top: 16px;   
+}
+
+/* floating user panel */
+.panels-3wFtMD {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  border: 1px solid var(--background-secondary);
+  border-radius: 10px;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
+}
+
+/* favorites icon */
+.favoriteIcon-2kWmTP > path {
+    d: path("M16.44 3.10156C14.63 3.10156 13.01 3.98156 12 5.33156C10.99 3.98156 9.37 3.10156 7.56 3.10156C4.49 3.10156 2 5.60156 2 8.69156C2 9.88156 2.19 10.9816 2.52 12.0016C4.1 17.0016 8.97 19.9916 11.38 20.8116C11.72 20.9316 12.28 20.9316 12.62 20.8116C15.03 19.9916 19.9 17.0016 21.48 12.0016C21.81 10.9816 22 9.88156 22 8.69156C22 5.60156 19.51 3.10156 16.44 3.10156Z");
+    transform: scale(1.1) translate(-1.5px, -1px);
+    transition: all 0.2s ease-in-out;
+}
+.wrapper-3kah-n.selected-1Drb7Z[aria-label*="Fav"] .favoriteIcon-2kWmTP path {
+    fill: #F62B30;
+}
+.wrapper-3kah-n.selected-1Drb7Z[aria-label*="Fav"] .childWrapper-1j_1ub::after {
+    background-color: #F62B30;
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    filter: blur(10px);
+    opacity: 0.4;
+}
